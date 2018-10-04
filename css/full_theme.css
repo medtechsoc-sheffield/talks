@@ -856,11 +856,14 @@ html {
     width: 100%;
     display: flex;
     padding: 10px; }
-    .items-block.single-block.left {
-      width: 50%;
-      color: #fff; }
-    .items-block.single-block.right {
-      width: 50%; }
+  .items-block.single-block.left {
+    float: left;
+    width: 50%;
+    /* color: #fff; */
+    }
+  .items-block.single-block.right {
+    float: left;
+    width: 50%; }
 
 .reveal .slides section.color--grad-purple {
   background-color: #fff;
