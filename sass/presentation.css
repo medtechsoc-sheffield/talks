@@ -34,7 +34,7 @@
   text-decoration: none;
 }
 
-.header .twitter .fa-twitter {
+.header .twitter .twitter {
     color: #5f6c7a; /*slate grey*/
 }
 
@@ -368,11 +368,11 @@ ul.icon li{
 
 ul.icon li::before{
   font-family: 'flaticon';
-  content: "\f10a"; /* unicorn */
+  content: "\f10b"; /* code */
   float: left;
   width: 1.2em;
   font-size: 1.2em;
-  color: #850796;  /* purple */
+  color: #454545;  /* darkgrey */
 }
 
 /* Can change the icons */
@@ -388,5 +388,9 @@ ul.icon li.cloud::before{
 }
 ul.icon li.star::before{
   content: "\f10c";
+  color: #454545; /* darkgray */
+}
+ul.icon li.plant::before{
+  content: "\f07";
   color: #454545; /* darkgray */
 }
