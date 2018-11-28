@@ -785,12 +785,21 @@ html {
 .reveal .slides section.color--ice .logo {
   background-image: url("../assets/logos/medtech_logo.png"); }
 
+.reveal .slides section.color--ice .logo-py {
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.png"); }
+
+.reveal .slides section.color--ice .logo-py {
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.png"); }
+
 .reveal .slides section.color--violet {
   background-color: #3A015C;
   color: #fff; }
 
 .reveal .slides section.color--violet .logo {
   background-image: url("../assets/logos/medtech_logo.png"); }
+
+.reveal .slides section.color--violet .logo-py {
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.png"); }
 
 .reveal .slides section.color--light {
   background-color: #fff;
@@ -799,6 +808,9 @@ html {
 /* dark grey */
 .reveal .slides section.color--light .logo {
   background-image: url("../assets/logos/medtech_logo.png"); }
+
+.reveal .slides section.color--light .logo-py {
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.png"); }
 
 .reveal .slides section.color--midnight {
   background-color: #2A2A49;
@@ -819,6 +831,9 @@ html {
 .reveal .slides section.color--vibrant .logo {
   background-image: url("../assets/logos/medtech_logo.png"); }
 
+.reveal .slides section.color--vibrant .logo-py {
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.png"); }
+
 .reveal .slides section.color--topaz {
   background-color: #67aeca;
   color: #fff; }
@@ -827,6 +842,9 @@ html {
 
 .reveal .slides section.color--vibrant .logo {
   background-image: url("../assets/logos/medtech_logo.png"); }
+
+.reveal .slides section.color--vibrant .logo-py {
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.png"); }
 
 .reveal .slides section.color--two {
   background-color: #fff;
@@ -988,6 +1006,16 @@ html {
   margin-right: 1.5vmin;
   width: 60%; }
 
+.reveal .slides section .logo-py {
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  display: inline-block;
+  grid-area: header;
+  height: 5.5vmin;
+  margin-right: 1.5vmin;
+  width: 60%; }
+
 .reveal .slides section .section {
   text-transform: uppercase;
   line-height: 5.5vmin;
@@ -1034,6 +1062,15 @@ html {
   height: 100%; }
 
 .reveal .slides section.intro .logo {
+  background-position: center;
+  background-size: contain;
+  height: auto;
+  margin: auto;
+  min-height: 200px;
+  min-width: 200px;
+  width: 33%; }
+
+.reveal .slides section.intro .logo-py {
   background-position: center;
   background-size: contain;
   height: auto;
@@ -1143,6 +1180,9 @@ html {
 
 .reveal .slides section.subsection:not([class*='color--']) .logo, .reveal .slides section.subsection.color--light .logo {
   background-image: url("../assets/logos/medtech_logo.png"); }
+
+.reveal .slides section.subsection:not([class*='color--']) .logo-py, .reveal .slides section.subsection.color--light .logo {
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.png"); }
 
 .reveal .slides section.subsection.color--midnight .description, .reveal .slides section.subsection.color--ice .description, .reveal .slides section.subsection.color--radiant .description {
   color: #EEEDEF; }
@@ -1311,8 +1351,21 @@ html {
   min-width: 200px;
   width: 33%; }
 
+.reveal .slides section.end .logo-py {
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.png");
+  background-position: center;
+  background-size: contain;
+  height: auto;
+  margin: auto;
+  min-height: 200px;
+  min-width: 200px;
+  width: 33%; }
+
 .reveal .slides section.end.color--radiant .logo {
   background-image: url("../assets/logos/medtech_logo.png"); }
+
+.reveal .slides section.end.color--radiant .logo-py {
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.png"); }
 
 /*******************************************************************************
  * Code Segments
